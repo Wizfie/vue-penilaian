@@ -9,7 +9,9 @@
 
 			<div class="card">
 				<div class="card-body d-flex justify-content-between">
-					<h4>Hello, <span>Wiz</span></h4>
+					<h4>
+						Hello, <span>{{ tokenUser.name }}</span>
+					</h4>
 					<button class="btn btn-secondary" @click="$router.back()">
 						Back
 					</button>

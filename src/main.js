@@ -14,7 +14,6 @@ import axios from "axios";
 // axios.defaults.baseURL = "http://localhost:8080/api";
 axios.defaults.baseURL =
 	"https://spring-penilaian-production.up.railway.app/api";
-// 	"https://backend-penilaian-production.up.railway.app/api";
 const app = createApp(App);
 
 app.use(router); // Use the router
